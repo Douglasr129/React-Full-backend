@@ -1,0 +1,19 @@
+{
+  "name": "react-full-backend",
+  "version": "1.0.0",
+  "description": "\"Projeto baseado em um atendimento de uma pizzaria que visa agilizar o atendimento e o preparo dos pedidos\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Douglasr129/React-Full-backend.git"
+  },
+  "author": "Douglas Tiburcio Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Douglasr129/React-Full-backend/issues"
+  },
+  "homepage": "https://github.com/Douglasr129/React-Full-backend#readme"
+}
