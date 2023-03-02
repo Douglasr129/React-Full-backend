@@ -37,7 +37,7 @@ model Product {
   name        String
   price       String
   description String
-  banner     String
+  banner      String
   created_at  DateTime? @default(now())
   updated_at  DateTime? @default(now())
 
@@ -51,6 +51,7 @@ model Product {
 model Order {
   id         String    @id @default(uuid())
   table      Int
+  name       String
   status     Boolean   @default(false)
   draft      Boolean   @default(true)
   created_at DateTime? @default(now())
